@@ -1,0 +1,27 @@
+.cabecalho__conteudo {
+    display: flex;
+    justify-content: space-between;
+    width: 1136px;
+}
+
+#barra__de__pesquisa {
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    height: 40px;
+    width: 393px;
+}
+
+#texto_pesquisa {
+    background-color:transparent;
+    border:none;
+    height: 40px;
+    padding-left: 2%;
+    position: absolute;
+    width: 393px;
+}
+
+#botao__pesquisar {
+    left: 90%;
+    position: relative;
+    top: 20%;
+}
