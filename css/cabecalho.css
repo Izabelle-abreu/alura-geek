@@ -5,16 +5,20 @@
 }
 
 #barra__de__pesquisa {
-    background-color: #F5F5F5;
+    background-color: var(--preto-5);
     border-radius: 20px;
     height: 40px;
     width: 393px;
 }
 
-#texto_pesquisa {
+#texto__pesquisa {
     background-color:transparent;
     border:none;
+    color: var(--preto-50);
+    font-size: 14px;
+    font-weight: 400;
     height: 40px;
+    line-height: 16px;
     padding-left: 2%;
     position: absolute;
     width: 393px;
@@ -24,4 +28,16 @@
     left: 90%;
     position: relative;
     top: 20%;
+}
+
+#botao__login {
+    background: var(--branco);
+    border: solid 1px;
+    color: #2A7AE4;
+    font-size: 16px;
+    font-weight: 400;
+    height: 51px;
+    line-height: 18.78px;
+    padding: 16px;
+    width: 182px;
 }
