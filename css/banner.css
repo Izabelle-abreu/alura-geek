@@ -1,0 +1,19 @@
+.banner {
+    background-image: url(../imagens/banner.png);
+    background-repeat: no-repeat;
+    height: 352px;
+    width: 100vw;
+}
+
+#banner__promocional--titulo {
+    color: var(--branco);
+    font-size: 52px;
+    font-weight: 700;
+    height: 51px;
+    line-height: 61.05px;
+    width: 751px;
+}
+
+#banner__promocional--subtitulo {
+    color: var(--branco);
+}

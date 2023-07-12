@@ -12,7 +12,7 @@
     width: 1136px;
 }
 
-#barra__de__pesquisa {
+.barra__de__pesquisa {
     background-color: var(--preto-5);
     border-radius: 20px;
     height: 40px;
@@ -39,7 +39,7 @@
     top: 20%;
 }
 
-#cabecalho__direita{
+.cabecalho__direita{
     display: flex;
     height: 50px;
     justify-content: space-between;
