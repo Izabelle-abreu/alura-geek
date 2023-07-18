@@ -1,0 +1,76 @@
+.login__iniciar__sessao {
+    align-items: center;
+    background-color: var(--preto-5);
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    width: 100vw;
+}
+
+.login__iniciar__sessao__divisao {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 291px;
+    width: 423px;
+}
+
+.login__iniciar__sessao--titulo {
+    color: var(--preto-100);
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 700;
+    height: 29px;
+    line-height: 21.13px;
+    width: 131px;
+}
+
+#email {
+    background-color: var(--branco);
+    border: none;
+    border-radius: 4px;
+    height: 63.13px;
+    margin-bottom: 18.5px;
+    width: 423px;
+}
+
+#email::placeholder {
+    color: var(--preto-50);
+    font-family: "Raleway";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-left: 10px;
+}
+
+#senha {
+    background-color: var(--branco);
+    border: none;
+    border-radius: 4px;
+    height: 63px;
+    margin-bottom: 18.5px;
+    width: 423px;
+}
+
+#senha::placeholder {
+    color: var(--preto-50);
+    font-family: "Raleway";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-left: 10px;
+}
+
+#botao{
+    background-color: var(--azul-100);
+    border: none;
+    color: var(--branco);
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 600;
+    height: 62px;
+    line-height: 21.13px;
+    width: 423px;
+}

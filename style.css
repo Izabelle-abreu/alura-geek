@@ -4,11 +4,12 @@
     --branco: #FFFFFF;
     --preto-5: #F5F5F5;
     --preto-50: #A2A2A2;
+    --preto-100: #464646;
 }
 
 body {
     box-sizing: border-box;
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway";
     line-height: 1;
     margin: 0;
     overflow-x: hidden;

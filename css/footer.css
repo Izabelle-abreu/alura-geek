@@ -1,0 +1,99 @@
+.footer {
+    background-color: var(--azul-10);
+    height: 368px;
+    padding: 64px;
+    padding-left: 150px;
+    width: 100vw;
+}
+
+.footer--conteudo {
+    display: flex;
+    height: 240px;
+    justify-content: space-between;
+    width: 1136px;
+}
+
+.footer--links {
+    display: flex;
+    flex-direction: column;
+    height: 234px;
+    margin-left: 5%;
+    margin-top: 10px;
+    width: 176px;
+}
+
+.footer--links--item {
+    color: var(--preto-100);
+    font-size: 16px;
+    font-weight: 500;
+    height: 19px;
+    line-height: 18.78px;
+    margin-bottom: 25px;
+    width: 176px;
+}
+
+.footer--contato {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+#footer--contato--titulo {
+    color: var(--preto-100);
+    font-size: 16px;
+    font-weight: 700;
+    height: 19px;
+    line-height: 18.78px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    width: 560px;
+}
+
+#footer--contato--nome {
+    border: none;
+    font-family: "Raleway";
+    height: 56px;
+    margin-bottom: 15px;
+    padding: 0px 12px 0px 12px;
+    width: 541px;
+}
+
+#footer--contato--nome::placeholder {
+    color: var(--preto-50);
+    font-family: "Raleway";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+#footer--contato--mensagem {
+    border: none;
+    font-family: "Raleway";
+    height: 82px;
+    width: 560px;
+}
+
+#footer--contato--mensagem::placeholder {
+    color: var(--preto-50);
+    font-family: "Raleway";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-left: 10px;
+    padding-top: 17px;
+}
+
+#footer--contato--botao {
+    background-color: var(--azul-100);
+    border: none;
+    color: var(--branco);
+    font-family: "Raleway";
+    font-size: 16px;
+    font-weight: 400;
+    height: 51px;
+    line-height: 18.78px;
+    margin-top: 20px;
+    padding: 16px;
+    width: 165px;
+}

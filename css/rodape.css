@@ -1,0 +1,17 @@
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape--texto {
+    color: var(--preto-100);
+    font-family: "Raleway";
+    font-size: 16px;
+    font-weight: 500;
+    height: 38px;
+    line-height: 18.78px;
+    padding: 32px;
+    text-align: center;
+    width: 280px;
+}

@@ -9,6 +9,7 @@
 .cabecalho__conteudo {
     display: flex;
     justify-content: space-between;
+    margin-left: 1%;
     width: 1136px;
 }
 
@@ -20,7 +21,7 @@
     width: 393px;
 }
 
-#texto__pesquisa {
+.texto__pesquisa {
     background-color:transparent;
     border:none;
     color: var(--preto-50);
@@ -33,7 +34,7 @@
     width: 393px;
 }
 
-#botao__pesquisar {
+.botao__pesquisar {
     left: 90%;
     position: relative;
     top: 20%;
@@ -47,7 +48,7 @@
 }
 
 
-#botao__login {
+.botao__login {
     background: var(--branco);
     border: solid 1px;
     color: #2A7AE4;
@@ -57,4 +58,20 @@
     line-height: 18.78px;
     padding: 16px;
     width: 182px;
+}
+
+.cabecalho__login {
+    align-items: center;
+    color: var(--branco);
+    display: flex;
+    height: 114px;
+    width: 100vw;
+}
+
+.cabecalho__login--conteudo {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 115px;
+    padding-right: 600px;
+    width: 1136px;
 }

@@ -1,0 +1,36 @@
+.todos__os__produtos {
+    background-color: var(--preto-5);
+    display: flex;
+    height: 942px;
+    justify-content: center;
+    padding-top: 60px;
+    width: 100vw;
+}
+
+.todos__os__produtos--divisao {
+    display: flex;
+    height: 51px;
+    justify-content: space-between;
+    width: 1133px;
+}
+
+.todos__os__produtos--titulo {
+    color: var(--preto-100);
+    font-family: "Raleway";
+    font-size: 32px;
+    font-weight: 700;
+    height: 38px;
+    line-height: 32.57px;
+}
+
+.todos__os__produtos--botao {
+    background-color: var(--azul-100);
+    border: none;
+    color: var(--branco);
+    font-family: "Raleway";
+    font-size: 16px;
+    font-weight: 400;
+    height: 51px;
+    line-height: 18.78px;
+    padding: 16px;
+}
