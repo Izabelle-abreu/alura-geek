@@ -1,32 +1,30 @@
-.secao__star__wars {
+.secao__diversos {
     height: 400px;
     margin-left: 10%;
     margin-top: 5%;
     width: 1136px;
 }
 
-#star__wars--inicio {
+#diversos--inicio {
     align-items: center;
     display: flex;
     justify-content: space-between;
 }
 
-
-
-.star__wars--lista {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0;
-    padding: 0;
-}
-
-.star__wars--titulo {
+.diversos--titulo {
     color: var(--preto-100);
     font-size: 32px;
     font-weight: 700;
     height: 38px;
     line-height: 37.57px;
     width: 148px;
+}
+
+.diversos--lista {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    padding: 0;
 }
 
 .lista--titulo {

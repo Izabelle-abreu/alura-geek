@@ -3,7 +3,7 @@ const conexao = 'http://localhost:3000/starWars';
 async function buscarProdutosDaApi() {
     const resposta = await fetch(conexao)
     .then((req) => req.json())
-    .then((data) => mostraProdutos(data));
+    .then((data) => mostraProdutosStarWars(data));
 
     return resposta;
 }
@@ -11,7 +11,7 @@ async function buscarProdutosDaApi() {
 buscarProdutosDaApi();
 
 const elementoParaInserirProduto = document.querySelector('[data-produtos]');
-function mostraProdutos(produtos){
+function mostraProdutosStarWars(produtos){
     elementoParaInserirProduto.innerHTML = '';
     produtos.forEach(produto => {
         elementoParaInserirProduto.innerHTML += `
