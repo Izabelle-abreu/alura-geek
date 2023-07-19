@@ -74,7 +74,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 491px;
+    height: 560px;
     justify-content: center;
     width: 1136px;
 }
@@ -93,25 +93,60 @@
     background-color: var(--branco);
     border: none;
     border-radius: 4px;
-    height: 56px;
-    margin-bottom: 20px;
-    width: 559px;
-}
-
-.adicionar__novo__produto--divisao input::placeholder {
+    color: var(--preto-100);
     font-family: "Raleway";
     font-size: 16px;
     font-weight: 400;
+    height: 56px;
     line-height: 20px;
-    padding-left: 20px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    width: 559px;
+}
+
+
+.adicionar__novo__produto--wrap label {
+    color: var(--preto-50);
+    font-family: "Raleway";
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    line-height: 20px;
+    padding-left: 15px;
+    padding-top: 15px;
+    pointer-events: none;
+    position: absolute;
+    top: 4px;
+    transition: 0.3s ease all;
+}
+
+.adicionar__novo__produto--wrap {
+    height: auto;
+    position: relative;
+    width: auto;
+}
+
+.input__produto:focus+label,
+.input__produto:valid+label {
+    font-size: 12px;
+    left: 12px;
+    padding: 0px 10px 0px 0px;
+    top: 5px;
 }
 
 .adicionar__novo__produto--divisao textarea {
     background-color: var(--branco);
     border: none;
     border-radius: 4px;
+    color: var(--preto-100);
+    font-family: "Raleway";
+    font-size: 16px;
+    font-weight: 400;
     height: 82px;
+    line-height: 20px;
     margin-bottom: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
     width: 559px;
 }
 

@@ -35,6 +35,7 @@
 .footer--contato {
     display: flex;
     flex-direction: column;
+    height: 300px;
     margin-left: 5%;
 }
 
@@ -51,26 +52,55 @@
 
 #footer--contato--nome {
     border: none;
+    color: var(--preto-100);
     font-family: "Raleway";
+    font-size: 16px;
+    font-weight: 400;
     height: 56px;
+    line-height: 20px;
     margin-bottom: 15px;
     padding: 0px 12px 0px 12px;
     width: 541px;
 }
 
-#footer--contato--nome::placeholder {
+.footer--contato--wrap label {
     color: var(--preto-50);
     font-family: "Raleway";
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 16px;
-    margin-bottom: 10px;
+    left: 0;
+    line-height: 20px;
+    padding-left: 15px;
+    padding-top: 15px;
+    pointer-events: none;
+    position: absolute;
+    top: 4px;
+    transition: 0.3s ease all;
+}
+
+.footer--contato--wrap {
+    height: auto;
+    position: relative;
+    width: auto;
+}
+
+.input:focus+label,
+.input:valid+label {
+    font-size: 12px;
+    left: 12px;
+    padding: 0px 10px 0px 0px;
+    top: 5px;
 }
 
 #footer--contato--mensagem {
     border: none;
+    color: var(--preto-100);
     font-family: "Raleway";
-    height: 82px;
+    font-size: 16px;
+    font-weight: 400;
+    height: 100px;
+    line-height: 20px;
+    padding: 10px 0px 0px 10px;
     width: 560px;
 }
 
@@ -80,8 +110,8 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
-    padding-left: 10px;
-    padding-top: 17px;
+    padding-left: 5px;
+    padding-top: 10px;
 }
 
 #footer--contato--botao {

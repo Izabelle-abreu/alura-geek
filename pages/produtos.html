@@ -31,10 +31,22 @@
         <section class="secao__adicionar__novo__produto">
             <div class="adicionar__novo__produto--divisao">
                 <h2 class="adicionar__novo__produto--titulo">Adicionar novo produto</h2>
-                <input type="text" id="url" placeholder="URL da imagem">
-                <input type="text" id="categoria" placeholder="Categoria">
-                <input type="text" id="nomeDoProduto" placeholder="Nome do produto">
-                <input type="text" id="preco" placeholder="Preço do produto">
+                <div class="adicionar__novo__produto--wrap">
+                    <input type="text" class="input__produto" id="url" required>
+                    <label for="">URL da imagem</label>
+                </div>
+                <div class="adicionar__novo__produto--wrap">
+                    <input type="text" class="input__produto" id="categoria" required>
+                    <label for="">Categoria</label>
+                </div>
+                <div class="adicionar__novo__produto--wrap">
+                    <input type="text" class="input__produto" id="nomeDoProduto" required>
+                    <label for="">Nome do produto</label>
+                </div>
+                <div class="adicionar__novo__produto--wrap">
+                    <input type="text" class="input__produto" id="preco" required>
+                    <label for="">Preço do produto</label>
+                </div>
                 <textarea name="descricao" id="descricao" cols="30" rows="10" placeholder="Descrição do produto"></textarea>
                 <button class="adicionar__produto__btn">Adicionar produto</button>
             </div>
@@ -54,8 +66,11 @@
                 </div>
                 <div class="footer--contato">
                     <p id="footer--contato--titulo">Fale conosco</p>
-                    <input id="footer--contato--nome" type="text" placeholder="Nome">
-                    <textarea id="footer--contato--mensagem" name="mensagem" placeholder="Escreva sua mensagem" cols="40" rows="10"></textarea>
+                    <div class="footer--contato--wrap">
+                        <input class="input" id="footer--contato--nome" type="text" required>
+                        <label for="">Nome</label>
+                    </div>
+                    <textarea class="input" id="footer--contato--mensagem" name="mensagem" placeholder="Escreva sua mensagem" cols="40" rows="10"></textarea>
                     <button id="footer--contato--botao" type="submit">Enviar mensagem</button>
                 </div>
             </div>

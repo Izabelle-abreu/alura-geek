@@ -24,7 +24,8 @@
 .texto__pesquisa {
     background-color:transparent;
     border:none;
-    color: var(--preto-50);
+    color: var(--preto-100);
+    font-family: "Raleway";
     font-size: 14px;
     font-weight: 400;
     height: 40px;
@@ -32,6 +33,10 @@
     padding-left: 2%;
     position: absolute;
     width: 393px;
+}
+
+.texto__pesquisa::placeholder {
+    color: var(--preto-50);
 }
 
 .botao__pesquisar {
@@ -74,4 +79,50 @@
     padding-left: 115px;
     padding-right: 600px;
     width: 1136px;
+}
+
+/*TABLET*/
+@media screen and (max-width: 768px){
+    .cabecalho {
+        height: 72px;
+        padding-left: 20px;
+    }
+    
+    .cabecalho__conteudo {
+        height: 40px;
+    }
+
+    .logo__alura {
+        height: 28px;
+        width: 100px;
+    }
+
+    .cabecalho__direita {
+        align-items: center;
+        height: 40px;
+        width: 404px;
+    }
+
+    .texto__pesquisa {
+        width: 272px;
+    }
+
+    .barra__de__pesquisa {
+        height: 40px;
+        margin-top: 0px;
+        width: 272px;
+    }
+
+    .botao__pesquisar {
+        left: 85%;
+    }
+
+    .botao__login {
+        font-size: 14px;
+        height: 40px;
+        line-height: 16.44px;
+        margin-right: 50px;
+        padding: 0px;
+        width: 166px;
+    }
 }
