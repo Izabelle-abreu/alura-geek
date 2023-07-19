@@ -127,3 +127,18 @@
     padding: 16px;
     width: 165px;
 }
+
+/*TABLET*/
+@media screen and (max-width: 768px) {
+    .footer {
+        height: 364px;
+        padding: 32px;
+    }
+
+    .logo__links {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        width: 254px;
+    }
+}

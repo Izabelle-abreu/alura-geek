@@ -8,6 +8,7 @@
 }
 
 body {
+    background-color: var(--preto-5);
     box-sizing: border-box;
     font-family: "Raleway";
     line-height: 1;

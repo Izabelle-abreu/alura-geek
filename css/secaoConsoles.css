@@ -56,3 +56,43 @@
     line-height: 18.78px;
     width: 91px;
 }
+
+/*TABLET*/
+@media screen and (max-width: 768px) {
+    .secao__consoles {
+        height: 358px;
+        margin-left: 4%;
+        width: 100vw;
+    }
+
+    #consoles--inicio {
+        height: 26px;
+        margin-bottom: 3%;
+        padding-right: 55px;
+        width: 704px;
+    }
+
+    .consoles--titulo {
+        font-size: 22px;
+        height: 26px;
+        line-height: 25.83px;
+        width: 102px;
+    }
+
+    .consoles--lista {
+        flex-wrap: wrap;
+        padding-right: 55px;
+    }
+
+    .consoles--lista img {
+        width: 164px;
+    }
+
+    .consoles--lista div:last-child {
+        display: none;
+    }
+
+    .consoles--lista div:nth-last-child(2) {
+        display: none;
+    }
+}

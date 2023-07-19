@@ -56,3 +56,43 @@
     line-height: 18.78px;
     width: 91px;
 }
+
+/*TABLET*/
+@media screen and (max-width: 768px) {
+    .secao__diversos {
+        height: 358px;
+        margin-left: 4%;
+        width: 100vw;
+    }
+
+    #diversos--inicio {
+        height: 26px;
+        margin-bottom: 3%;
+        padding-right: 55px;
+        width: 704px;
+    }
+
+    .diversos--titulo {
+        font-size: 22px;
+        height: 26px;
+        line-height: 25.83px;
+        width: 102px;
+    }
+
+    .diversos--lista {
+        flex-wrap: wrap;
+        padding-right: 55px;
+    }
+
+    .diversos--lista img {
+        width: 164px;
+    }
+
+    .diversos--lista div:last-child {
+        display: none;
+    }
+
+    .diversos--lista div:nth-last-child(2) {
+        display: none;
+    }
+}

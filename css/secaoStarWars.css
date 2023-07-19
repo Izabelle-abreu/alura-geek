@@ -11,8 +11,6 @@
     justify-content: space-between;
 }
 
-
-
 .star__wars--lista {
     display: flex;
     justify-content: space-between;
@@ -57,4 +55,44 @@
     height: 19px;
     line-height: 18.78px;
     width: 91px;
+}
+
+/*TABLET*/
+@media screen and (max-width: 768px) {
+    .secao__star__wars {
+        height: 358px;
+        margin-left: 4%;
+        width: 100vw;
+    }
+
+    .star__wars--inicio {
+        height: 26px;
+        margin-bottom: 3%;
+        padding-right: 55px;
+        width: 704px;
+    }
+
+    .star__wars--titulo {
+        font-size: 22px;
+        height: 26px;
+        line-height: 25.83px;
+        width: 102px;
+    }
+
+    .star__wars--lista {
+        flex-wrap: wrap;
+        padding-right: 55px;
+    }
+
+    .star__wars--lista img {
+        width: 164px;
+    }
+
+    .star__wars--lista div:last-child {
+        display: none;
+    }
+
+    .star__wars--lista div:nth-last-child(2) {
+        display: none;
+    }
 }
