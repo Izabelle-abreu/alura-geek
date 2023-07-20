@@ -18,6 +18,7 @@
     background-color: var(--preto-5);
     border-radius: 20px;
     height: 40px;
+    margin-left: 40px;
     margin-top: 5px;
     width: 393px;
 }
@@ -48,9 +49,10 @@
 
 .cabecalho__direita{
     display: flex;
-    height: 50px;
+    
+    /* height: 50px;
     justify-content: space-between;
-    width: 601px;
+    width: 601px; */
 }
 
 
@@ -62,6 +64,7 @@
     font-weight: 400;
     height: 51px;
     line-height: 18.78px;
+    margin-left: 400px;
     padding: 16px;
     width: 182px;
 }
@@ -85,12 +88,15 @@
 /*TABLET*/
 @media screen and (max-width: 768px){
     .cabecalho {
-        height: 72px;
-        padding-left: 20px;
+        height: 40px;
+        padding: 16px 32px 16px 32px;
+        width: 704px;
     }
     
     .cabecalho__conteudo {
-        height: 40px;
+        width: 768px;
+        height: 72px;
+        align-items: center;
     }
 
     .logo__alura {
@@ -100,8 +106,6 @@
 
     .cabecalho__direita {
         align-items: center;
-        height: 40px;
-        width: 404px;
     }
 
     .texto__pesquisa {
@@ -119,22 +123,31 @@
     }
 
     .botao__login {
+        align-items: center;
+        display: flex;
         font-size: 14px;
-        height: 40px;
+        height: 36px;
+        justify-content: center;
         line-height: 16.44px;
-        margin-right: 50px;
-        padding: 0px;
-        width: 166px;
+        margin-left: 140px;
+        padding: 12px 16px 12px 16px;
+        text-align: center;
+        width: 134px;
     }
 }
 
 /*MOBILE*/
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 360px) {
     .cabecalho {
-        height: 56px;
-        padding: 16px;
+        align-items: center;
+        height: 24px;
         justify-content: space-between;
-        width: 100vw;
+        padding: 16px;
+        width: 328px;
+    }
+
+    .cabecalho__conteudo {
+        width: 80%;
     }
 
     .logo__alura {
@@ -143,6 +156,18 @@
     }
     
     .barra__de__pesquisa {
+        background-color: transparent;
+    }
+    
+    .texto__pesquisa {
         display: none;
     }
+
+    .botao__login {
+        height: 16px;
+        padding: 12px 16px 12px 16px;
+        width: 133px;
+    }
+
+    
 }

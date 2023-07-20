@@ -11,6 +11,11 @@
     justify-content: space-between;
 }
 
+.link__ver__tudo {
+    align-items: center;
+    display: flex;
+    
+}
 
 .star__wars--lista {
     display: flex;
@@ -55,7 +60,7 @@
     font-weight: 700;
     height: 19px;
     line-height: 18.78px;
-    width: 91px;
+    width: 70px;
 }
 
 /*TABLET*/

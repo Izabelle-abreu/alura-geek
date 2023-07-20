@@ -20,6 +20,12 @@
     width: 148px;
 }
 
+.link__ver__tudo {
+    align-items: center;
+    display: flex;
+    
+}
+
 .diversos--lista {
     display: flex;
     justify-content: space-between;
@@ -54,7 +60,7 @@
     font-weight: 700;
     height: 19px;
     line-height: 18.78px;
-    width: 91px;
+    width: 70px;
 }
 
 /*TABLET*/
