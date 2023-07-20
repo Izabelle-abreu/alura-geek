@@ -35,6 +35,11 @@
     background-color: var(--branco);
     border: none;
     border-radius: 4px;
+    color: var(--preto-100);
+    font-family: "Raleway";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
     height: 63.13px;
     margin-bottom: 18.5px;
     width: 423px;
@@ -77,4 +82,122 @@
     height: 62px;
     line-height: 21.13px;
     width: 423px;
+}
+
+/*TABLET*/
+@media screen and (max-width:768px) {
+    .cabecalho__login {
+        height: 40px;
+        padding: 16px 32px 16px 32px;
+        width: 704px;
+    }
+
+    .cabecalho__login--conteudo {
+        align-items: center;
+        padding-left: 0;
+        width: 404px;
+    }
+
+    .logo__alura {
+        height: 28px;
+        width: 100px;
+    }
+
+    .login__iniciar__sessao {
+        height: 231px;
+        padding: 32px;
+        width: 704px;
+    }
+
+    .login__iniciar__sessao__divisao {
+        height: 189px;
+        width: 275px;
+    }
+
+    .login__iniciar__sessao--titulo {
+        font-size: 16px;
+        line-height: 18.78px;
+        margin: 0;
+    }
+
+    #email {
+        height: 41px;
+        width: 275px;
+    }
+
+    #email::placeholder {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #senha {
+        height: 41px;
+        width: 275px;
+    }
+
+    #senha::placeholder {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #botao {
+        font-size: 14px;
+        height: 40px;
+        line-height: 16.44px;
+        padding: 12px 16px 12px 16px;
+        width: 109px;
+    }
+}
+
+/*MOBILE*/
+@media screen and (max-width: 360px) {
+    .cabecalho__login {
+        height: 40px;
+        padding: 16px;
+        width: 328px;
+    }
+
+    .login__iniciar__sessao {
+        height: 310px;
+        width: 296px;
+    }
+
+    .login__iniciar__sessao__divisao {
+        height: 189px;
+        width: 275px;
+    }
+
+    .login__iniciar__sessao--titulo {
+        font-size: 16px;
+        line-height: 18.78px;
+        margin: 0;
+    }
+
+    #email {
+        height: 41px;
+        width: 275px;
+    }
+
+    #email::placeholder {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #senha {
+        height: 41px;
+        width: 275px;
+    }
+
+    #senha::placeholder {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #botao {
+        font-size: 14px;
+        height: 40px;
+        line-height: 16.44px;
+        padding: 12px 16px 12px 16px;
+        width: 109px;
+    }
 }
