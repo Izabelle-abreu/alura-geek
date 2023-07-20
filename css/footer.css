@@ -13,12 +13,21 @@
     width: 1136px;
 }
 
+#footer--logo {
+    padding-left: 10%;
+}
+
+.logo__links {
+    display: flex;
+}
+
 .footer--links {
     display: flex;
     flex-direction: column;
     height: 234px;
     margin-left: 5%;
     margin-top: 10px;
+    padding-left: 30%;
     width: 176px;
 }
 
@@ -140,5 +149,30 @@
         flex-direction: column;
         height: 300px;
         width: 254px;
+    }
+
+    .footer--contato {
+        height: 350px;
+        margin-right: 40%;
+        width: 434px;
+    }
+
+    #footer--contato--nome {
+        height: 56px;
+        padding-right: 0px;
+        width: 434px;
+    }
+
+    #footer--contato--mensagem {
+        height: 82px;
+        width: 434px;
+    }
+
+    #footer--contato--botao {
+        font-size: 14px;
+        height: 40px;
+        line-height: 16.44px;
+        padding: 12px;
+        width: 151px;
     }
 }

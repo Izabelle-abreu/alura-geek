@@ -127,3 +127,22 @@
         width: 166px;
     }
 }
+
+/*MOBILE*/
+@media screen and (max-width: 380px) {
+    .cabecalho {
+        height: 56px;
+        padding: 16px;
+        justify-content: space-between;
+        width: 100vw;
+    }
+
+    .logo__alura {
+        height: 28px;
+        width: 100px;
+    }
+    
+    .barra__de__pesquisa {
+        display: none;
+    }
+}

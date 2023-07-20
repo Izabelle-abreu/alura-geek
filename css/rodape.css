@@ -1,6 +1,7 @@
 .rodape {
-    display: flex;
     align-items: center;
+    background-color: var(--branco);
+    display: flex;
     justify-content: center;
 }
 
@@ -14,4 +15,12 @@
     padding: 32px;
     text-align: center;
     width: 280px;
+}
+
+/*TABLET*/
+@media screen and (max-width: 768px) {
+    .rodape {
+        height: 102px;
+        width: 100vw;
+    }
 }
