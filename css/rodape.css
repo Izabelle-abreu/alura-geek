@@ -25,3 +25,12 @@
         width: 100vw;
     }
 }
+
+/*MOBILE*/
+@media screen and (max-width: 360px) {
+    .rodape {
+        height: 38px;
+        padding: 32px;
+        width: 296px;
+    }
+}

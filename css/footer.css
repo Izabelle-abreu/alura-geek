@@ -184,3 +184,52 @@
         width: 151px;
     }
 }
+
+/*MOBILE*/
+@media screen and (max-width: 360px) {
+    .footer {
+        height: 521px;
+        padding: 16px;
+        width: 328px;
+    }
+
+    .footer--conteudo {
+        flex-direction: column;
+        height: 521px;
+        width: 328px;
+    }
+
+    .logo__links {
+        text-align: center;
+    }
+
+    .footer--links--item {
+        margin-bottom: 15px;
+    }
+
+    .footer--contato  {
+        height: 229px;
+        margin: 0;
+        width: 328px;
+    }
+
+    #footer--contato--titulo {
+        margin-top: -20px;
+    }
+
+    #footer--contato--nome {
+        width: 316px;
+    }
+
+    #footer--contato--mensagem {
+        width: 318px;
+    }
+
+    #footer--contato--botao {
+        font-size: 14px;
+        height: 40px;
+        line-height: 16.44px;
+        padding: 12px 16px 12px 16px;
+        width: 151px;
+    }
+}

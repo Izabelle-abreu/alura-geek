@@ -69,3 +69,38 @@
         width: 119px;
     }
 }
+
+/*MOBILE*/
+@media screen and (max-width: 360px) {
+    .banner {
+        height: 160px;
+        padding: 16px;
+        width: 328px;
+    }
+
+    .banner__promocional {
+        height: 98px;
+        margin: 0;
+        margin-top: 40px;
+        padding-top: 0;
+        width: 328px;
+    }
+
+    #banner__promocional--titulo {
+        font-size: 22px;
+        height: 26px;
+        line-height: 25.83px;
+        margin-bottom: 0;
+        width: 328px;
+    }
+
+    #banner__promocional--subtitulo {
+        font-size: 14px;
+        height: 16px;
+        line-height: 16.44px;
+        margin-bottom: 7px;
+        margin-top: 10px;
+        width: 328px;
+    }
+
+}

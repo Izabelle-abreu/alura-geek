@@ -140,14 +140,14 @@
 @media screen and (max-width: 360px) {
     .cabecalho {
         align-items: center;
-        height: 24px;
+        height: 40px;
         justify-content: space-between;
         padding: 16px;
         width: 328px;
     }
 
     .cabecalho__conteudo {
-        width: 80%;
+        width: 360px;
     }
 
     .logo__alura {
@@ -157,6 +157,7 @@
     
     .barra__de__pesquisa {
         background-color: transparent;
+        margin-left: -30px;
     }
     
     .texto__pesquisa {
@@ -164,7 +165,8 @@
     }
 
     .botao__login {
-        height: 16px;
+        height: 40px;
+        margin-left: -200px;
         padding: 12px 16px 12px 16px;
         width: 133px;
     }

@@ -104,3 +104,42 @@
         display: none;
     }
 }
+
+/*MOBILE*/
+@media screen and (max-width: 360px) {
+    .secao__consoles {
+        height: 556px;
+        margin-top: 40px;
+        padding: 16px;
+        width: 328px;
+    }
+
+    .consoles--titulo {
+        font-size: 22px;
+        line-height: 25.83px;
+    }
+
+    #consoles--inicio {
+        width: 328px;
+    }
+
+    .consoles--lista {
+        /*OBS 1: Adicionando as propriedades display: flex e 
+        flex-wrap: wrap ao pai*/
+        display: flex;
+        flex-wrap: wrap;
+        height: 249px;
+        width: 328px;
+    }
+
+    .consoles--lista div {
+        margin-bottom: 15px;
+        /*OBS 1: Mantém 2 filhos por linha*/
+        width: 50%;
+    }
+
+    .consoles--lista img {
+        height: 174px;
+        width: 154px;
+    }
+}
