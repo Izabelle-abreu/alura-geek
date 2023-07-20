@@ -1,3 +1,7 @@
+.cabecalho__login {
+    background-color: var(--branco);
+}
+
 .login__iniciar__sessao {
     align-items: center;
     background-color: var(--preto-5);

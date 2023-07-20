@@ -66,9 +66,11 @@
 /*TABLET*/
 @media screen and (max-width: 768px) {
     .secao__diversos {
-        height: 358px;
+        height: 294px;
         margin-left: 4%;
-        width: 100vw;
+        margin: 0;
+        padding: 32px;
+        width: 704px;
     }
 
     #diversos--inicio {
@@ -86,8 +88,7 @@
     }
 
     .diversos--lista {
-        flex-wrap: wrap;
-        padding-right: 55px;
+        width: 710px;
     }
 
     .diversos--lista img {

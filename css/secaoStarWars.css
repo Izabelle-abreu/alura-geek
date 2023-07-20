@@ -66,15 +66,10 @@
 /*TABLET*/
 @media screen and (max-width: 768px) {
     .secao__star__wars {
-        height: 358px;
+        height: 294px;
         margin-left: 4%;
-        width: 100vw;
-    }
-
-    .star__wars--inicio {
-        height: 26px;
-        margin-bottom: 3%;
-        padding-right: 55px;
+        margin: 0;
+        padding: 32px;
         width: 704px;
     }
 
@@ -86,9 +81,16 @@
     }
 
     .star__wars--lista {
-        flex-wrap: wrap;
-        padding-right: 55px;
+        width: 710px;
     }
+
+    .star__wars--inicio {
+        height: 26px;
+        margin-bottom: 3%;
+        padding-right: 55px;
+        width: 704px;
+    }
+
 
     .star__wars--lista img {
         width: 164px;

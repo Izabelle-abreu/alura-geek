@@ -20,7 +20,8 @@
 /*TABLET*/
 @media screen and (max-width: 768px) {
     .rodape {
-        height: 102px;
+        height: 38px;
+        padding: 32px;
         width: 100vw;
     }
 }

@@ -140,15 +140,23 @@
 /*TABLET*/
 @media screen and (max-width: 768px) {
     .footer {
-        height: 364px;
+        height: 300px;
         padding: 32px;
+        width: 704px;
     }
 
     .logo__links {
+        align-items: end;
         display: flex;
         flex-direction: column;
         height: 300px;
+        margin-right: 8%;
         width: 254px;
+    }
+
+    .footer--conteudo {
+        height: 300px;
+        width: 704px;
     }
 
     .footer--contato {
