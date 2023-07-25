@@ -17,7 +17,7 @@
     <header>
         <section class="cabecalho__login">
             <div class="cabecalho__login--conteudo">
-                <img src="../imagens/Logo.png" alt="Logo Alura Geek">
+                <img src="../imagens/Logo.png" alt="Logo Alura Geek" class="logoAlura">
                 <div class="barra__de__pesquisa">
                     <input type="text" class="texto__pesquisa" placeholder="O que deseja encontrar?">
                     <img src="../imagens/lupa.png" alt="Pesquisar" class="botao__pesquisar">
@@ -27,23 +27,41 @@
     </header>
     <main>
         <section class="todos__os__produtos">
-            <div class="todos__os__produtos--divisao">
-                <h2 class="todos__os__produtos--titulo">Todos os produtos</h2>
-                <button class="todos__os__produtos--botao">Adicionar produto</button>
-            </div>
+            <!-- <div class="todos__os__produtos--divisao"> -->
+                <div class="todos__os__produtos--inicio">
+                    <h2 class="todos__os__produtos--titulo">Todos os produtos</h2>
+                    <button class="todos__os__produtos--botao">Adicionar produto</button>
+                </div>
+                <div class="todos__produtos--conteudo">
+                    <div class="lista__todos_produtos"  data-Produtos>
+                        <!-- <img src="../imagens/starWars1.png" alt="">
+                        <h2 class="lista--titulo">Produto XYZ</h2>
+                        <p class="lista--preco">R$ 60,00</p>
+                        <a href="#" class="lista--link">Ver produto</a> -->
+                    </div>
+                    <!-- <div class="lista__todos_produtos"  data-ProdutosConsoles>
+                        
+                    </div>
+                    <div class="lista__todos_produtos"  data-ProdutosDiversos>
+                        
+                    </div>
+                </div> -->
+            <!-- </div> -->
         </section>
         <section class="footer">
             <div class="footer--conteudo">
-                <div class="footer--logo">
-                    <img src="../imagens/Logo.png" alt="">
-                </div>
-                <div class="footer--links">
-                    <a class="footer--links--item" href="#">Quem somos nós</a>
-                    <a class="footer--links--item" href="#">Política de privacidade</a>
-                    <a class="footer--links--item" href="#">Programa fidelidade</a>
-                    <a class="footer--links--item" href="#">Nossas lojas</a>
-                    <a class="footer--links--item" href="#">Quero ser franqueado</a>
-                    <a class="footer--links--item" href="#">Anuncie aqui</a>
+                <div class="logo__links">
+                    <div class="footer--logo">
+                        <img src="../imagens/Logo.png" alt="">
+                    </div>
+                    <div class="footer--links">
+                        <a class="footer--links--item" href="#">Quem somos nós</a>
+                        <a class="footer--links--item" href="#">Política de privacidade</a>
+                        <a class="footer--links--item" href="#">Programa fidelidade</a>
+                        <a class="footer--links--item" href="#">Nossas lojas</a>
+                        <a class="footer--links--item" href="#">Quero ser franqueado</a>
+                        <a class="footer--links--item" href="#">Anuncie aqui</a>
+                    </div>
                 </div>
                 <div class="footer--contato">
                     <p id="footer--contato--titulo">Fale conosco</p>
@@ -60,5 +78,6 @@
     <footer class="rodape">
         <p class="rodape--texto">Desenvolvido por Izabelle Abreu 2023</p>
     </footer>
+    <script src="../js/todosProdutos.js"></script>
 </body>
 </html>

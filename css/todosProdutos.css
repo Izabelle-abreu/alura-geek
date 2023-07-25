@@ -1,17 +1,30 @@
+.cabecalho__login {
+    background-color: var(--branco);
+    height: 115px;
+    width: 100vw;
+}
+
 .todos__os__produtos {
     background-color: var(--preto-5);
     display: flex;
-    height: 942px;
+    height: 1080px;
     justify-content: center;
     padding-top: 60px;
     width: 100vw;
 }
 
-.todos__os__produtos--divisao {
+.todos__os__produtos--inicio {
+    align-items: center;
     display: flex;
     height: 51px;
     justify-content: space-between;
-    width: 1133px;
+    margin: 0px 0px 20px 0px;
+    width: 1136px;
+}
+
+.todos__os__produtos--divisao {
+    height: 942px;
+    width: 1136px;
 }
 
 .todos__os__produtos--titulo {
@@ -33,4 +46,146 @@
     height: 51px;
     line-height: 18.78px;
     padding: 16px;
+}
+
+.todos__produtos--conteudo {
+    height: 875px;
+}
+
+.lista__todos_produtos {
+    display: flex;
+    height: 249px;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    width: 1136px;
+}
+
+.lista--titulo {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.44px;
+    margin: 10px 0px 5px 0px;
+}
+
+.lista--preco {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.78px;
+    margin: 10px 0px 5px 0px;
+}
+
+.lista--id {
+    color: var(--preto-100);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.44px;
+}
+
+/*TABLET*/
+@media screen and (max-width: 768px) {
+    .cabecalho__login {
+        height: 72px;
+        width: 100vw;
+    }
+
+    .cabecalho__login--conteudo {
+        align-items: center;
+        height: 40px;
+        justify-content: center;
+        padding: 0px 0px 0px 40px;
+        width: 404px;
+    }
+
+    .logoAlura {
+        height: 28px;
+        width: 100px;
+    }
+
+    .barra__de__pesquisa {
+        height: 40px;
+        width: 272px;
+    }
+
+    .todos__os__produtos {
+        height: calc(1429px - 64px);
+        padding: 32px;
+        width: calc(768px - 64px);
+    }
+
+    .todos__os__produtos--inicio{
+        height: 40px;
+        justify-content: space-between;
+        width: 704px;
+    }
+
+    .todos__os__produtos--titulo {
+        font-size: 22px;
+        height: 26px;
+        line-height: 25.83px;
+        width: 194px;
+    }
+
+    .todos__os__produtos--botao {
+        font-size: 14px;
+        height: 40px;
+        line-height: 16.44px;
+        padding: 12px 16px 12px 16px;
+    }
+
+    .lista__todos_produtos {
+        flex-wrap: wrap;
+        justify-content: start;
+        width: 704px;
+    }
+
+    .lista__todos_produtos div {
+        height: 249px;
+        margin: 0px 10px 15px 0px;
+        width: 164px;
+    }
+
+    .lista__todos_produtos img {
+        height: 174px;
+        width: 164px;
+    }
+}
+
+/*MOBILE*/
+@media screen and (max-width: 360px) {
+    .cabecalho__login {
+        height: 60px;
+        width: 360px;
+    }
+
+    .todos__os__produtos--inicio {
+        align-items: baseline;
+        flex-direction: column;
+        height: 82px;
+        width: 296px;
+    }
+
+    .cabecalho__login--conteudo {
+        padding: 16px;
+    }
+
+    /* .todos__os__produtos {
+        height: calc(2643px);
+        padding: 32px;
+        width: calc(296px);
+    } */
+
+    .todos__os__produtos {
+        width: 296px;
+    }
+
+    .lista__todos_produtos > div {
+        height: 249px;
+        width: 50%;
+    }
+
+    .lista__todos_produtos img {
+        height: 174px;
+        width: 140px;
+    }
+   
 }
