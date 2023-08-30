@@ -69,6 +69,14 @@
     width: 182px;
 }
 
+.botao__login > a {
+    color: #2A7AE4;
+}
+
+.botao__login:hover{
+    cursor: pointer;
+}
+
 .cabecalho__login {
     align-items: center;
     color: var(--branco);

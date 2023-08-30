@@ -30,10 +30,10 @@
     </header>
     <main>
         <section class="secao__adicionar__novo__produto">
-            <div class="adicionar__novo__produto--divisao">
+            <form class="adicionar__novo__produto--divisao" data-form>
                 <h2 class="adicionar__novo__produto--titulo">Adicionar novo produto</h2>
                 <div class="adicionar__novo__produto--wrap">
-                    <input type="text" class="input__produto" id="url" required>
+                    <input type="text" class="input__produto" id="url" required data-url>
                     <label for="">URL da imagem</label>
                 </div>
                 <div class="adicionar__novo__produto--wrap">
@@ -41,16 +41,16 @@
                     <label for="">Categoria</label>
                 </div>
                 <div class="adicionar__novo__produto--wrap">
-                    <input type="text" class="input__produto" id="nomeDoProduto" required>
+                    <input type="text" class="input__produto" id="nomeDoProduto" required data-nome>
                     <label for="">Nome do produto</label>
                 </div>
                 <div class="adicionar__novo__produto--wrap">
-                    <input type="text" class="input__produto" id="preco" required>
+                    <input type="text" class="input__produto" id="preco" required data-preco>
                     <label for="">Preço do produto</label>
                 </div>
                 <textarea name="descricao" id="descricao" cols="30" rows="10" placeholder="Descrição do produto"></textarea>
-                <button class="adicionar__produto__btn">Adicionar produto</button>
-            </div>
+                <button type="submit" class="adicionar__produto__btn">Adicionar produto</button>
+            </form>
         </section>
         <section class="footer">
             <div class="footer--conteudo">
@@ -82,5 +82,6 @@
     <footer class="rodape">
         <p class="rodape--texto">Desenvolvido por Izabelle Abreu 2023</p>
     </footer>
+    <script type="module" src="../controller/cria-produto-controller.js"></script>
 </body>
 </html>

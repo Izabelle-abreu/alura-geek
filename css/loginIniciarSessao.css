@@ -84,6 +84,10 @@
     width: 423px;
 }
 
+#botao:hover {
+    cursor: pointer;
+}
+
 /*TABLET*/
 @media screen and (max-width:768px) {
     .cabecalho__login {

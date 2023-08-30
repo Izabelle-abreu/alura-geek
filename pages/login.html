@@ -27,12 +27,12 @@
     </header>
     <main>
         <section class="login__iniciar__sessao">
-            <div class="login__iniciar__sessao__divisao">
+            <form class="login__iniciar__sessao__divisao" data-form>
                 <p class="login__iniciar__sessao--titulo">Iniciar Sessão</p>
-                <input type="email" name="email" id="email" placeholder="Escreva seu email">
-                <input type="password" name="senha" id="senha" placeholder="Escreva sua senha">
-                <button id="botao">Entrar</button>
-            </div>
+                <input type="email" name="email" id="email" placeholder="Escreva seu email" required data-email>
+                <input type="password" name="senha" id="senha" placeholder="Escreva sua senha" required data-senha>
+                <button type="submit" id="botao">Entrar</button>
+            </form>
         </section>
         <section class="footer">
             <div class="footer--conteudo">
@@ -64,5 +64,6 @@
     <footer class="rodape">
         <p class="rodape--texto">Desenvolvido por Izabelle Abreu 2023</p>
     </footer>
+    <script type="module" src="../controller/login-controller.js"></script>
 </body>
 </html>

@@ -175,6 +175,10 @@
     width: 559px;
 }
 
+.adicionar__produto__btn:hover {
+    cursor: pointer;
+}
+
 /*TABLET*/
 @media screen and (max-width: 768px) {
     .cabecalho__produto {
