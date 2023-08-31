@@ -6,7 +6,7 @@
 
 .todos__os__produtos {
     background-color: var(--preto-5);
-    display: flex;
+    /* display: flex; */
     height: 1080px;
     justify-content: center;
     padding-top: 60px;
@@ -50,9 +50,51 @@
 
 .todos__produtos--conteudo {
     height: 875px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
 }
 
-.lista__todos_produtos {
+.produto__nome {
+    color: var(--preto-100);
+    font-size: 14px;
+    font-weight: 500;
+    height: 16px;
+    line-height: 16.44px;
+    margin-top: 10px;
+    width: 176px;
+}
+
+.produto__preco {
+    color: var(--preto-100);
+    font-size: 16px;
+    font-weight: 700;
+    height: 19px;
+    line-height: 14.78px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    width: 176px;
+}
+
+.container{
+    position: absolute;
+}
+
+.buttonDelete, .buttonEdit{
+    background-color: transparent;
+    border: none;
+}
+
+.deleteImage, .editImage{
+    position: relative;
+}
+
+.deleteImage:hover, .editImage:hover{
+    cursor: pointer;
+}
+
+/* .lista__todos_produtos {
     display: flex;
     height: 249px;
     justify-content: space-between;
@@ -79,7 +121,7 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 16.44px;
-}
+} */
 
 /*TABLET*/
 @media screen and (max-width: 768px) {

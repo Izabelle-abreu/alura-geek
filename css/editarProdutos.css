@@ -1,0 +1,362 @@
+.cabecalho__produto {
+    align-items: center;
+    background-color: var(--branco);
+    display: flex;
+    height: 115px;
+    justify-content: center;
+    width: 100vw;
+}
+
+.cabecalho__produto__adicionar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1%;
+    width: 1136px;
+}
+
+.barra__de__pesquisa__adicionar__produto {
+    background-color: var(--preto-5);
+    border-radius: 20px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 393px;
+}
+
+.texto__pesquisa__adicionar__produto {
+    background-color:transparent;
+    border:none;
+    color: var(--preto-50);
+    font-size: 14px;
+    font-weight: 400;
+    height: 40px;
+    line-height: 16px;
+    padding-left: 2%;
+    position: absolute;
+    width: 393px;
+}
+
+.botao__adicionar__produto {
+    left: 90%;
+    position: relative;
+    top: 20%;
+}
+
+.cabecalho__produto__adicionar--direita {
+    display: flex;
+    /* height: 50px;
+    justify-content: space-between;
+    width: 601px; */
+}
+
+.botao__menu__adm {
+    background: var(--branco);
+    border: solid 1px;
+    color: #2A7AE4;
+    font-size: 16px;
+    font-weight: 400;
+    height: 51px;
+    line-height: 18.78px;
+    margin-left: 380px;
+    padding: 16px;
+    width: 182px;
+}
+
+.secao__adicionar__novo__produto {
+    align-items: center;
+    background-color: var(--preto-5);
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    padding-bottom: 70px;
+    padding-top: 50px;
+    width: 100vw;
+}
+
+.adicionar__novo__produto--divisao {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 560px;
+    justify-content: center;
+    width: 1136px;
+}
+
+.adicionar__novo__produto--titulo {
+    color: var(--preto-100);
+    font-family: "Raleway";
+    font-size: 32px;
+    font-weight: 700;
+    height: 38px;
+    line-height: 37.57px;
+    margin-left: -197px;
+}
+
+.adicionar__novo__produto--divisao input {
+    background-color: var(--branco);
+    border: none;
+    border-radius: 4px;
+    color: var(--preto-100);
+    font-family: "Raleway";
+    font-size: 16px;
+    font-weight: 400;
+    height: 56px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    width: 559px;
+}
+
+
+.adicionar__novo__produto--wrap label {
+    color: var(--preto-50);
+    font-family: "Raleway";
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    line-height: 20px;
+    padding-left: 15px;
+    padding-top: 15px;
+    pointer-events: none;
+    position: absolute;
+    top: 4px;
+    transition: 0.3s ease all;
+}
+
+.adicionar__novo__produto--wrap {
+    height: auto;
+    position: relative;
+    width: auto;
+}
+
+.input__produto:focus+label,
+.input__produto:valid+label {
+    font-size: 12px;
+    left: 12px;
+    padding: 0px 10px 0px 0px;
+    top: 5px;
+}
+
+.adicionar__novo__produto--divisao textarea {
+    background-color: var(--branco);
+    border: none;
+    border-radius: 4px;
+    color: var(--preto-100);
+    font-family: "Raleway";
+    font-size: 16px;
+    font-weight: 400;
+    height: 82px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
+    width: 559px;
+}
+
+.adicionar__novo__produto--divisao textarea::placeholder {
+    color: var(--preto-50);
+    font-family: "Raleway";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.adicionar__produto__btn {
+    background-color: var(--azul-100);
+    border: none;
+    color: var(--branco);
+    font-family: "Raleway";
+    font-size: 16px;
+    font-weight: 400;
+    height: 51px;
+    line-height: 18.78px;
+    width: 559px;
+}
+
+.adicionar__produto__btn:hover {
+    cursor: pointer;
+}
+
+/*TABLET*/
+@media screen and (max-width: 768px) {
+    .cabecalho__produto {
+        height: 40px;
+        padding: 16px 32px 16px 32px;
+        width: 704px;
+    }
+
+    .cabecalho__produto__adicionar {
+        height: 40px;
+        margin: 0;
+        width: 704px;
+    }
+
+    .cabecalho__produto__adicionar--direita {
+        align-items: center;
+    }
+
+    .logo__alura__produto {
+        height: 28px;
+        width: 100px;
+    }
+
+    .barra__de__pesquisa__adicionar__produto {
+        height: 15px;
+        margin-right: 185px;
+        margin-top: 0;
+        padding: 8px 16px 8px 16px;
+        width: 190px;
+    }
+
+    .texto__pesquisa__adicionar__produto {
+        font-size: 12px;
+        height: 16px;
+        padding: 0;
+        width: 208px;
+    }
+
+    .botao__adicionar__produto {
+        height: 17.05px;
+        left: 95%;
+        top: -4%;
+        width: 17.05px;
+    }
+
+    .botao__menu__adm {
+        align-items: center;
+        display: flex;
+        font-size: 12px;
+        height: 35px;
+        line-height: 16.44px;
+        justify-content: center;
+        margin: 0;
+        padding: 12px 16px 12px 16px;
+        width: 148px;
+    }
+
+    .secao__adicionar__novo__produto {
+        height: 479px;
+        padding: 32px;
+        width: 704px;
+    }
+
+    .adicionar__novo__produto--divisao {
+        align-items: baseline;
+        height: 479px;
+        justify-content: space-between;
+        width: 704px;
+    }
+
+    .adicionar__novo__produto--titulo {
+        font-size: 22px;
+        line-height: 25.83px;
+        margin-bottom: unset;
+        margin-bottom: -10px;
+        margin-left: 0;
+        margin-top: 0;
+        /* margin-right: 330px; */
+    }
+
+    .adicionar__novo__produto--wrap {
+        height: 56px;
+        width: 704px;
+    }
+
+    .adicionar__novo__produto--divisao input {
+        height: 56px;
+        width: 704px;
+        padding: 0;
+    }
+
+    .adicionar__novo__produto--divisao textarea {
+        height: 82px;
+        margin-bottom: 0;
+        padding: 0;
+        width: 704px;
+    }
+
+    .adicionar__produto__btn {
+        height: 51px;
+        padding: 16px;
+        width: 704px;
+    }
+}
+
+/*MOBILE*/
+@media screen and (max-width: 360px) {
+    .cabecalho__produto { 
+        align-items: center;
+        height: 40px;
+        justify-content: space-between;
+        padding: 16px;
+        width: 328px;
+    }
+
+
+    .cabecalho__produto__adicionar--direita {
+        width: 360px;
+    }
+
+    .logo__alura__produto {
+        height: 28px;
+        width: 100px;
+    }
+
+    .barra__de__pesquisa__adicionar__produto {
+        background-color: transparent;
+        margin-left: -30px;
+        margin-right: 0;
+    }
+
+    .texto__pesquisa__adicionar__produto {
+        display: none;
+    }
+
+    .botao__adicionar__produto {
+        height: 24px;
+        left: 115%;
+        top: -35%;
+        width: 24px;
+    }
+
+    .botao__menu__adm {
+        font-size: 14px;
+        height: 40px;
+        margin-left: -170px;
+        padding: 12px 16px 12px 16px;
+        width: 158px;
+    }
+
+    .secao__adicionar__novo__produto {
+        height: 479px;
+        padding: 16px;
+        width: 328px;
+    }
+
+    .adicionar__novo__produto--divisao {
+        height: 479px;
+        width: 328px;
+    }
+
+    .adicionar__novo__produto--wrap {
+        height: 56px;
+        width: 328px;
+    }
+
+    .adicionar__novo__produto--divisao input {
+        height: 56px;
+        padding: 0;
+        width: 328px;
+    }
+
+    .adicionar__novo__produto--divisao textarea {
+        height: 82px;
+        width: 328px;
+    }
+
+    .adicionar__produto__btn {
+        width: 328px;
+    }
+}

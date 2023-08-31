@@ -7,40 +7,52 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/cabecalho.css">
-    <link rel="stylesheet" href="../css/todosProdutos.css">
+    <link rel="stylesheet" href="../css/editarProdutos.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/rodape.css">
-    <title>Produtos - Home</title>
+    <title>Produtos</title>
 </head>
 <body>
     <header>
-        <section class="cabecalho__login">
-            <div class="cabecalho__login--conteudo">
-                <img src="../imagens/Logo.png" alt="Logo Alura Geek" class="logoAlura">
-                <div class="barra__de__pesquisa">
-                    <input type="text" class="texto__pesquisa" placeholder="O que deseja encontrar?">
-                    <img src="../imagens/lupa.png" alt="Pesquisar" class="botao__pesquisar">
-                </div>
+        <section class="cabecalho__produto">
+            <div class="cabecalho__produto__adicionar">
+                <div class="cabecalho__produto__adicionar--direita">
+                    <img src="../imagens/Logo.png" alt="Logo Alura Geek" class="logo__alura__produto">
+                        <div class="barra__de__pesquisa__adicionar__produto">
+                            <input type="text" class="texto__pesquisa__adicionar__produto" placeholder="O que deseja encontrar?">
+                            <img src="../imagens/lupa.png" alt="Pesquisar" class="botao__adicionar__produto">
+                        </div>
+                        <button class="botao__menu__adm">Menu administrador</button>
+                    </div>
+                
             </div>
         </section>
     </header>
     <main>
-        <section class="todos__os__produtos">
-                <div class="todos__os__produtos--inicio">
-                    <h2 class="todos__os__produtos--titulo">Todos os produtos</h2>
-                    <button class="todos__os__produtos--botao">Adicionar produto</button>
+        <section class="secao__adicionar__novo__produto">
+            <form class="adicionar__novo__produto--divisao" data-form>
+                <h2 class="adicionar__novo__produto--titulo">Editar produto</h2>
+                <div class="adicionar__novo__produto--wrap">
+                    <input type="text" class="input__produto" id="url" required data-url>
+                    <label for="">URL da imagem</label>
                 </div>
-                <div class="todos__produtos--conteudo" data-todosProdutos>
-                    
+                <div class="adicionar__novo__produto--wrap">
+                    <input type="text" class="input__produto" id="nomeDoProduto" required data-nome>
+                    <label for="">Nome do produto</label>
                 </div>
-                   
+                <div class="adicionar__novo__produto--wrap">
+                    <input type="text" class="input__produto" id="preco" required data-preco>
+                    <label for="">Preço do produto</label>
+                </div>
+                <textarea name="descricao" id="descricao" cols="30" rows="10" placeholder="Descrição do produto" data-descricao ></textarea>
+                <button type="submit" class="adicionar__produto__btn">Editar produto</button>
+            </form>
         </section>
         <section class="footer">
             <div class="footer--conteudo">
                 <div class="logo__links">
                     <div class="footer--logo">
-                        <img src="../imagens/Logo.png" alt="">
+                        <img src="../imagens/Logo.png" alt="" >
                     </div>
                     <div class="footer--links">
                         <a class="footer--links--item" href="#">Quem somos nós</a>
@@ -66,6 +78,6 @@
     <footer class="rodape">
         <p class="rodape--texto">Desenvolvido por Izabelle Abreu 2023</p>
     </footer>
-    <script type="module" src="../controller/lista-produto.js"></script>
+    <script type="module" src="../controller/atualiza-produto-controller.js"></script>
 </body>
 </html>
