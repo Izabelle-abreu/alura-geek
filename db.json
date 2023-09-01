@@ -1,22 +1,18 @@
 {
   "produtos": [
     {
-      "imagem": "../imagens/starWars1.png",
-      "nome": "Produto XYZ",
-      "preco": "60,00",
-      "id": 1
-    },
-    {
       "imagem": "../imagens/starWars2.png",
       "nome": "Produto XYZ",
-      "preco": "60,00",
-      "id": 2
+      "preco": "120,00",
+      "id": 2,
+      "descricao": ""
     },
     {
       "imagem": "../imagens/starWars3.png",
       "nome": "Produto XYZ",
       "preco": "60,00",
-      "id": 3
+      "id": 3,
+      "descricao": "undefined"
     },
     {
       "imagem": "../imagens/starWars4.png",
@@ -107,30 +103,6 @@
       "nome": "Controle e console XYZ",
       "preco": "60,00",
       "id": 18
-    },
-    {
-      "imagem": "ghj",
-      "nome": "www.youtube.com/embed/YHpG6t91oW8",
-      "preco": "34",
-      "id": 19
-    },
-    {
-      "imagem": "ghj",
-      "nome": "www.youtube.com/embed/YHpG6t91oW8",
-      "preco": "34",
-      "id": 20
-    },
-    {
-      "imagem": "ghj",
-      "nome": "www.youtube.com/embed/YHpG6t91oW8",
-      "preco": "34",
-      "id": 21
-    },
-    {
-      "imagem": ".mç;",
-      "nome": "dsdgf",
-      "preco": "lç]ç",
-      "id": 22
     }
   ]
 }

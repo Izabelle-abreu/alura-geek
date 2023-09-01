@@ -1,6 +1,12 @@
 import { produtoServices } from "../service/produto-servicos.js";
 
-const getProdutos = (id, preco, imagem) => {
+const btnAdicionar = document.querySelector('.todos__os__produtos--botao')
+
+btnAdicionar.addEventListener('click', () => {
+    window.location.href = "editaProdutos.html"
+})
+
+const getProdutos = (id, imagem, nome, preco) => {
     const card = document.createElement("div");
 
     const conteudo = `
@@ -20,8 +26,8 @@ const getProdutos = (id, preco, imagem) => {
         </div>
 
         <img src="${imagem}" alt="img">
-        <h1 class="produto__nome"> ${id} </h1>
-        <p class="produto__preco">${preco}</p>
+        <h1 class="produto__nome"> ${nome} </h1>
+        <p class="produto__preco">R$${preco}</p>
     </div>
     `;
 
@@ -57,7 +63,7 @@ const render = async () => {
 
         listaProdutos.forEach((produto) => {
             produtos.appendChild(
-                getProdutos(produto.nome, produto.preco, produto.imagem, produto.id)
+                getProdutos(produto.id, produto.imagem, produto.nome, produto.preco)
             );
         });
     } catch (err) {
