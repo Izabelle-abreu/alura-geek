@@ -29,6 +29,6 @@ form.addEventListener("submit", (evento) => {
         inputDescricao.value
     )
     .then(() => {
-        window.location.href = "../pages/produtos.html";
+        window.location.href = "editaProdutos.html";
     })
 })

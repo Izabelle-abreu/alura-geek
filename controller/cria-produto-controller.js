@@ -19,3 +19,9 @@ form.addEventListener('submit', evento => {
         console.log(error);
     })
 }) 
+
+const btnAdicionar = document.querySelector('[data-btnAdd]');
+
+btnAdicionar.addEventListener('click', () => {
+    window.location.href = 'produtos.html'
+})

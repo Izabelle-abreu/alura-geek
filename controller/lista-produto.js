@@ -3,7 +3,7 @@ import { produtoServices } from "../service/produto-servicos.js";
 const btnAdicionar = document.querySelector('.todos__os__produtos--botao')
 
 btnAdicionar.addEventListener('click', () => {
-    window.location.href = "editaProdutos.html"
+    window.location.href = "../pages/produtos.html"
 })
 
 const getProdutos = (id, imagem, nome, preco) => {
